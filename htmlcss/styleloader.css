@@ -1,0 +1,9 @@
+#box1{
+    background-color: bisque;
+    height: 200px;
+    width: 200px;
+    background-image: url("pe..jpg");
+    background-size: cover;
+    color: aliceblue;
+    position: absolute;;
+}

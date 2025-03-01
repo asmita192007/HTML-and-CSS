@@ -1,0 +1,133 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family: Arial;
+}
+.navbar{
+    height: 80px;
+    background-color:black ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+/**box1**/
+.nav-logo{
+    height: 50px;
+    width: 100px;
+    align-self: normal;
+}
+.logo{
+    background-image: url("amzon.png");
+    background-size:cover;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border:1.5px solid white;
+}
+/**box2**/
+.add-first{
+    font-size:0.85rem ;
+    color:#cccccc;
+
+}
+.add-second{
+      font-size:1rem ;
+      margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+/**box3**/
+.nav-search{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.nav-search:hover{
+    border:2px solid orange;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius:3px ;
+    border:none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    
+}
+.search-icon{
+    border-top-right-radius: 3px;
+    border-bottom-right-radius:3px ;
+    width: 45px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: orange;
+    color:black;
+}
+/**box4**/
+span{
+font-size: 0.7rem;
+
+}
+.nav-second{
+font-size: 0.85rem;
+font-weight: 700;
+}
+/**box5**/
+/** only for icon**/
+.nav-cart i {
+font-size: 35px;
+height: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/**panel**/
+.panel{
+    height: 40px;
+    background-color: grey;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-option p{
+    display: inline;
+    margin-left: 15px;
+}
+.panel-option{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+font-size: 0.9rem;
+font-weight: 700;
+}
+
+/**background of hero section**/
+.hero-section{
+    background-image:url("home.jpg") ;
+    height: 600px ;
+    background-size: cover;
+
+}

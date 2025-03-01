@@ -1,0 +1,28 @@
+#box {
+    background-color: rgb(241, 40, 117);
+}
+.color {
+    color:aqua;
+}
+*{
+    padding:0;
+    margin: 0;
+}
+#navbar{
+    height: 60px;
+    background-color:black ;
+    
+}
+button{
+    background-color:orange;
+    color:white;
+}
+#logo{
+    color: orange;
+    font-size: 25px;
+}
+a{
+    margin-right: 200px;
+    color:azure;
+
+}
